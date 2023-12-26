@@ -1,0 +1,12 @@
+{
+    "name": "WebTranslator",
+    "description": "WebTranslator is a really cool extention which is going to translate all unknown text for you.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+        }
+    ]
+}
